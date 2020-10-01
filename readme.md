@@ -1,5 +1,5 @@
 # 1. Visão geral
-Este notebook é parte da documentação de uma exploração de dados realizada para o artigo _**O uso da Cloroquina no tratamento da Covid-19 debatido no Facebook**: um estudo em opinião pública com processamento de linguagem natural_.
+Este notebook é parte da documentação de uma exploração de dados realizada para o artigo _**O uso da Cloroquina no tratamento da Covid-19 debatido no Facebook**: um estudo em opinião pública com processamento de linguagem natural_. O artigo ainda é inédito e será disponibilizado assim que possível.
 
 ## Sobre os dados
 Os dados usados aqui foram coletados de um grupo aberto do Facebook, usando técnicas de [web scraping](https://en.wikipedia.org/wiki/Web_scraping). Mesmo sem uso da API da plataforma, e mesmo com todos os impedimentos do Facebook para esse tipo de coleta, uma quantidade significativa de comentários, reações (curtidas etc), replies, emojis e outros dados do tipo gerados pelos usuários foram coletados. Para os propósitos da presente análise, a prioridade são os comentários textuais dos usuários.
