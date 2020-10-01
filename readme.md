@@ -15,13 +15,13 @@ A cloroquina, [descartada pela OMS como tratamento para a Covid-19](https://www.
 
 # 2. Processando linguagem: sumário
 ## Nuvens de palavras
-[Neste notebook](https://colab.research.google.com/drive/1173WTU7-7h5xCNxndQYh53MpXeHC_sai), foi documentado todo o processamento do texto para a geração de visualizações (tokenização, stopwords etc). Foram geradas nuvens de cada um dos tópicos coletados e de todo o dataset.
+[Neste notebook](https://github.com/fabianelima/cloroquiners/blob/master/1-wordclouds.ipynb), foi documentado todo o processamento do texto para a geração de visualizações (tokenização, stopwords etc). Foram geradas nuvens de cada um dos tópicos coletados e de todo o dataset.
 
 ## Co-ocorrências e frequências
-[Este notebook](https://colab.research.google.com/drive/1EXS4c3F380oNfY7KFpvq29KNOjni-A7e) contém a documentação do processo de levantamento das frequências relativas dos termos mais usados pelos usuários. [Neste aqui](https://colab.research.google.com/drive/1jrvrS4Rk2GOngGLR8S0MDi9bf1bF7OUd), está documentada a análise de co-ocorrências e, [neste](https://colab.research.google.com/drive/1xUdLFz36Yq4e40eGN_HP0SgG7H2xsx94), as análises de léxico.
+[Este notebook](https://github.com/fabianelima/cloroquiners/blob/master/2-frequencias.ipynb) contém a documentação do processo de levantamento das frequências relativas dos termos mais usados pelos usuários. [Neste aqui](https://github.com/fabianelima/cloroquiners/blob/master/3-coocorrencias.ipynb), está documentada a análise de co-ocorrências e, [neste](https://github.com/fabianelima/cloroquiners/blob/master/4-lexico.ipynb), as análises de léxico.
 
 ## Análise de sentimento e polarização
-Esse experimento não saiu muito conforme o esperado, mas serviu como aprendizado, o que por si só já vale a inclusão dele aqui. [Neste notebook](https://colab.research.google.com/drive/14zX_FmkfXKnKkjP0zEVQ1y-PFOksy1rs), a teoria que o embasa, e [neste](https://colab.research.google.com/drive/13kwCnTR3Y8bRd_Mr3rNivk0brg6x01_t), a prática de uma tentativa frustrada. Como "prêmio de consolação", foram geradas nuvens de palavras a partir dos dados rotulados.
+Esse experimento não saiu muito conforme o esperado, mas serviu como aprendizado, o que por si só já vale a inclusão dele aqui. [Neste notebook](https://github.com/fabianelima/cloroquiners/blob/master/5-sentimento-teoria.ipynb), a teoria que o embasa, e [neste](https://github.com/fabianelima/cloroquiners/blob/master/6-sentimento-pr%C3%A1tica.ipynb), a prática de uma tentativa frustrada. Como "prêmio de consolação", foram geradas nuvens de palavras a partir dos dados rotulados.
 
 # 3. Finalizando
 Muito ainda pode ser extraído dos dados coletados. Esta análise teve caráter exploratório e experimental, buscando as possibilidades das ferramentas e também desenvolver familiaridade com elas. É possível usar esse conteúdo em outras ferramentas de análise de conteúdo textual, conduzir análises de conteúdo de tipo mais tradicional, analisar as relações entre os temas e usuários por meio da criação de grafos, levantar as reações, emojis, uso de gifs e outras expressões gráficas para traçar o humor da discussão etc. O objetivo final desse projeto é auxiliar o embasamento e a construção de um artigo para a disciplina de _Jornalismo Político e Opinião Pública_ cursada na UFPR.
